@@ -49,6 +49,8 @@ class DPlayer {
         }
         if (this.options.live) {
             this.container.classList.add('dplayer-live');
+        } else {
+            this.container.classList.remove('dplayer-live');
         }
         if (utils.isMobile) {
             this.container.classList.add('dplayer-mobile');
